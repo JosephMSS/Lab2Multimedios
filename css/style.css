@@ -106,3 +106,23 @@ body {
 .p_product--PriceSaved {
     color: green;
 }
+@media only screen and (min-width: 640px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__menu--main{
+        display: flex;
+        align-items: center;   
+    }
+    .nav__img{
+        width: 100%;
+        margin: auto 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .nav__item{
+        align-self: flex-start;
+    }
+
+ }
