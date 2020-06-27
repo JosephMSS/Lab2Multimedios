@@ -113,7 +113,7 @@ body {
     }
     .nav__menu--main{
         display: flex;
-        align-items: center;   
+        align-items: center;
     }
     .nav__img{
         width: 100%;
@@ -124,5 +124,16 @@ body {
     .nav__item{
         align-self: flex-start;
     }
+    .section_description{
+        width: 50%;
+    }
+    .section__products{
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .section__product{
+        width: 25%;
+        /* margin: 5%; */
 
+    }
  }
