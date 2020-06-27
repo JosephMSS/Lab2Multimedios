@@ -10,13 +10,13 @@ body {
     margin: 0;
 }
 
-.nav ol {
+.nav ul {
     margin: 0;
     display: flex;
     padding: 0;
 }
 
-.nav__menu--main {
+.nav__main {
     background-color: #ffd800;
 }
 
@@ -32,12 +32,12 @@ body {
     padding: 0 2% 0 5%;
 }
 
-.nav__menu--sub .nav__item .nav__link {
+.nav__sub .nav__item .nav__link {
     padding-left: 2%;
     color: white;
 }
 
-.nav__menu--sub {
+.nav__sub {
     background-color: black;
 }
 
@@ -53,18 +53,18 @@ body {
     border-radius: 10px;
 }
 
-.section_description {
+.description {
     margin: 10px;
 }
 
-.section__products {
+.products {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.section__product {
+.product {
     border: 1px solid gray;
     border-radius: 10px;
     width: 90%;
@@ -73,68 +73,68 @@ body {
     box-sizing: border-box;
 }
 
-.figure__imgContent {
+.product__imgContent {
     display: flex;
     justify-content: center;
 }
 
-.img__product {
+.product__img {
     width: 100%;
     border-radius: 10px;
 }
 
-.section__details {
+.product__details {
     margin: 2% 2%;
 }
 
-.h3__productTitle {
+.productTitle {
     margin: inherit;
     font-weight: bold;
 }
 
-.p_product {
+.product__Title {
     margin: inherit;
 }
 
-.p_product--RRP {
+.product__RRP {
     color: gray;
 }
 
-.p_product--Price {
+.product__Price {
     color: white;
 }
 
-.p_product--PriceSaved {
+.product__PriceSaved {
     color: green;
 }
+
 @media only screen and (min-width: 640px) {
-    .header{
+    .header {
         display: flex;
         flex-direction: column;
     }
-    .nav__menu--main{
+    .nav__main {
         display: flex;
         align-items: center;
     }
-    .nav__img{
+    .nav__img {
         width: 100%;
         margin: auto 0;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
     }
-    .nav__item{
+    .nav__item {
         align-self: flex-start;
     }
-    .section_description{
+    .description {
         width: 50%;
     }
-    .section__products{
+    .products {
         align-items: flex-start;
         justify-content: space-around;
     }
-    .section__product{
+    .product {
         width: 24%;
         /* margin: 5%; */
-
     }
- }
+}

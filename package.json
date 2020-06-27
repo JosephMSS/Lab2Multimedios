@@ -1,0 +1,24 @@
+{
+    "name": "mobilefirst",
+    "version": "1.0.0",
+    "description": "Laboratorio Multimedios MobileFirst",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "scss": "node-sass --watch scss -o css --output-style expanded",
+        "scsscd": "node-sass --watch scss -o css --output-style compressed"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JosephMSS/Lab2Multimedios.git"
+    },
+    "author": "Joseph Morales Silva",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JosephMSS/Lab2Multimedios/issues"
+    },
+    "homepage": "https://github.com/JosephMSS/Lab2Multimedios#readme",
+    "dependencies": {
+        "node-sass": "^4.14.1"
+    }
+}
