@@ -1,98 +1,95 @@
 
-body {
+/* body {
     font-family: 'Source Sans Pro', sans-serif;
-    /* background-color: black; */
     background-image: url('../images/bg.jpg');
     color: white;
     margin: 0;
-}
+} */
 
-.nav {
+/* .nav {
     margin: 0;
-}
+} */
 
-.nav .nav__list {
+/* .nav .nav__list {
     margin: 0;
     display: flex;
     padding: 0;
-}
+} */
 
-.nav__main {
+/* .nav__main {
     background-color: #ffd800;
-}
+} */
 
-.nav__link {
+/* .nav__link {
     color: black;
     text-decoration: none;
     font-weight: bold;
-}
+} */
 
-.nav__item {
+/* .nav__item {
     list-style: none;
     padding: 0 2% 0 5%;
-}
+} */
 
-.nav__sub .nav__item .nav__link {
+/* .nav__sub .nav__item .nav__link {
     padding-left: 2%;
     color: white;
-}
+} */
 
-.nav__sub {
+/* .nav__sub {
     background-color: black;
-}
+} */
 
-.nav__imgContent {
+/* .nav__imgContent {
     margin: 0;
     display: flex;
     justify-content: center;
-}
+} */
 
-.nav__img {
+/* .nav__img {
     margin: 5%;
     width: 60%;
     border-radius: 10px;
-}
+} */
 
-.description {
+/* .description {
     margin: 10px;
-}
+} */
 
-.products {
+/* .products {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+} */
 
-.product {
+/* .product {
     border: 1px solid gray;
     border-radius: 10px;
     width: 90%;
     margin-bottom: 20px;
     flex-shrink: 0;
     box-sizing: border-box;
-}
+} */
 
-.product__imgContent {
+/* .product__imgContent {
     display: flex;
     justify-content: center;
-}
+} */
 
-.product__img {
+/* .product__img {
     width: 100%;
     border-radius: 10px;
-}
-
+} */
+/* 
 .product__details {
     margin: 2% 2%;
-}
+} */
 
-.product_Title {
-    margin: inherit;
-    font-weight: bold;
-}
+
 
 /* .product__Title {
+    font-weight: bold;
     margin: inherit;
 } */
 
@@ -108,12 +105,12 @@ body {
     color: green;
 }
 
-@media only screen and (min-width: 640px) {
+/* @media only screen and (min-width: 640px) {
     .header {
         display: flex;
         flex-direction: column;
-    }
-    .nav__main {
+    } */
+    /* .nav__main {
         display: flex;
         align-items: center;
     }
@@ -125,15 +122,15 @@ body {
     }
     .nav__item {
         align-self: flex-start;
-    }
-    .description {
+    } */
+    /* .description {
         width: 50%;
-    }
-    .products {
+    } */
+    /* .products {
         align-items: flex-start;
         justify-content: space-around;
-    }
-    .product {
+    } */
+    /* .product {
         width: 24%;
-    }
+    } */
 }
